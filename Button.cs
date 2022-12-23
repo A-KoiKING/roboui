@@ -13,7 +13,6 @@ public class Button : MonoBehaviour
     public void OnClickStartButton()
     {
         ugoku = 1;
-
         FadeManager.Instance.LoadScene("SubScene", 5.0f);
     }
 
